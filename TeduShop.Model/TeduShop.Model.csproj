@@ -65,7 +65,10 @@
     <Compile Include="Model\ProductCategory.cs" />
     <Compile Include="Model\ProductTag.cs" />
     <Compile Include="Model\Slide.cs" />
+    <Compile Include="Model\SupportOnline.cs" />
+    <Compile Include="Model\SystemConfig.cs" />
     <Compile Include="Model\Tag.cs" />
+    <Compile Include="Model\VistorStatistic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
