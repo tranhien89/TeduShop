@@ -6,11 +6,13 @@ namespace TeduShop.Model.Model
     [Table("PostTags")]
     public class PostTag
     {
-        [Required]
+        [Key]
         public int PostID { set; get; }
 
-        [Required]
-        public int TagID { set; get; }
+        [Key]
+        [MaxLength(50)]
+        [Column(TypeName ="varchar")]
+        public string TagID { set; get; }
 
         [ForeignKey("PostID")]
         public virtual Post Post { set; get; }

@@ -6,10 +6,10 @@ namespace TeduShop.Model.Model
     [Table("ProductTags")]
     public class ProductTag
     {
-        [Required]
+        [Key]
         public int ProductID { set; get; }
 
-        [Required]
+        [Key]
         public string TagID { set; get; }
 
         [ForeignKey("ProductID")]

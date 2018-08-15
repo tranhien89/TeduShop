@@ -25,6 +25,7 @@ namespace TeduShop.Model.Model
 
         [Required]
         [MaxLength(250)]
+        [Column(TypeName ="varchar")]
         public string CustomerMobile { set; get; }
 
         [MaxLength(250)]
@@ -33,6 +34,7 @@ namespace TeduShop.Model.Model
         public DateTime CreatedDate { set; get; }
 
         [MaxLength(50)]
+        [Column(TypeName = "varchar")]
         public string CreatedBy { set; get; }
 
         [MaxLength(250)]

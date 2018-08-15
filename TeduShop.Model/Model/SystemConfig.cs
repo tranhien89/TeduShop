@@ -11,6 +11,7 @@ namespace TeduShop.Model.Model
         public int ID { set; get; }
 
         [MaxLength(250)]
+        [Column(TypeName ="varchar")]
         public string ValueString { set; get; }
 
         public int? ValueInt { set; get; }

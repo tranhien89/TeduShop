@@ -23,6 +23,7 @@ namespace TeduShop.Model.Model
         public int GroupID { set; get; }
 
         [MaxLength(10)]
+        [Column(TypeName ="varchar")]
         public string Target { set; get; }
 
         public bool? Status { set; get; }

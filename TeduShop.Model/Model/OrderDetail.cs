@@ -5,10 +5,10 @@ namespace TeduShop.Model.Model
 {
     public class OrderDetail
     {
-        [Required]
+        [Key]
         public int OrderID { set; get; }
 
-        [Required]
+        [Key]
         public int ProductID { set; get; }
 
         [Required]
